@@ -8,7 +8,7 @@ class Calculater:
         window.config(width=500,height=500,bg='#BDEDFF')
         window.title('Calculater')
         label =Label(window,text='Answer',justify="right",anchor='e',padx=10,pady=20,width=23,height=0-5,font=('Ariel',15),borderwidth=25,border=3,relief='sunken')
-        label.place(x=50,y=5)
+        label.grid(row=0)
 
         #buttons
 
